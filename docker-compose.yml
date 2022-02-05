@@ -3,8 +3,8 @@ services:
 
   tracker:
     container_name: tracker
-    image: zakhar0kostyshyn/tracker:1.0.0
-      stdin_open: true
+    image: zakhar0kostyshyn/tracker:1.0.1
+    stdin_open: true
     restart: always
     depends_on:
       - database
